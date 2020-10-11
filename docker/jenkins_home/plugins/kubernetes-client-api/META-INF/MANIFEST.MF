@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: vincent
+Build-Jdk: 1.8.0_252
+Extension-Name: kubernetes-client-api
+Specification-Title: This plugin provides the fabric8.io Kubernetes Cl
+ ient API to plugins.
+Implementation-Title: kubernetes-client-api
+Implementation-Version: 4.11.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: kubernetes-client-api
+Long-Name: Kubernetes Client API Plugin
+Url: https://wiki.jenkins.io/display/JENKINS/Kubernetes+Client+API+Plu
+ gin
+Minimum-Java-Version: 1.8
+Plugin-Version: 4.11.1
+Hudson-Version: 2.222.4
+Jenkins-Version: 2.222.4
+Plugin-Dependencies: snakeyaml-api:1.26.4,bouncycastle-api:2.18,jackso
+ n2-api:2.11.2
+Plugin-Developers: 
+Support-Dynamic-Loading: true
+Plugin-License-Name: The Apache Software License, Version 2.0
+Plugin-License-Url: http://www.apache.org/licenses/LICENSE-2.0.txt
+Plugin-ScmUrl: https://github.com/jenkinsci/kubernetes-client-api-plugin
+

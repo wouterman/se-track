@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: iocanel
+Build-Jdk: 1.8.0_162
+Extension-Name: kubernetes-pipeline-devops-steps
+Specification-Title: Use Docker Images and Kubernetes Pods from pipeli
+ ne.
+Specification-Vendor: Red Hat
+Implementation-Vendor: Red Hat
+Implementation-Title: kubernetes-pipeline-devops-steps
+Implementation-Version: 1.6
+Group-Id: io.fabric8.pipeline
+Short-Name: kubernetes-pipeline-devops-steps
+Long-Name: Kubernetes :: Pipeline :: DevOps Steps
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Kubernetes+Pipeline+P
+ lugin
+Plugin-Version: 1.6
+Hudson-Version: 2.7.4
+Jenkins-Version: 2.7.4
+Plugin-Dependencies: workflow-cps:2.17,workflow-durable-task-step:2.10
+ ,workflow-step-api:2.7,credentials:1.24,docker-commons:1.0,durable-ta
+ sk:1.13,git-client:1.19.2
+Plugin-Developers: Fabric8 Development Team:geeks:
+
