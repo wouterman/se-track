@@ -20,4 +20,6 @@ If you see the following line everything is good:
 
 Access jenkins at [http://localhost:3080](http://localhost:3080)
 
+Login: admin/admin
+
 Run the 'tools-test' job to verify that all tools are accessible.
