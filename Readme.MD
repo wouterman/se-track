@@ -21,6 +21,7 @@
 ### CICD
 * Use Jenkins to build and test you application on every push.
 * Push the docker image, in the Maven deploy-phase, to your local registry.
+* Start your container from Jenkins.
 * Use a Jenkins Pipeline to script the different 'stages' of your build.
 * Add the Pipeline script as a Jenkinsfile to your source repository.
 * Bonus: Add unit tests and visualize these in Jenkins.
