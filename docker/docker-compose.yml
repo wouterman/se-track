@@ -3,7 +3,7 @@ version: "3.5"
 services:
     jenkins:
         container_name: jenkins
-        build: ./dockerfile
+        image: woutervanderlinde/jenkins-se-track:lts
         restart: unless-stopped
         user: root
         ports:
