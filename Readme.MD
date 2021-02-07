@@ -1,9 +1,9 @@
 # Jenkins
-This folder contains a docker-compose file to run a Jenkins instance in a container using Docker. The folder jenkins_home is used to persist data.
+This repository contains a docker-compose file to run a Jenkins instance in a container using Docker. The folder jenkins/jenkins_home is used to persist data.
 The container has Maven, Java 11 and access to the Docker daemon of the host machine.
 
 ## How to run
-Run the following two commands:
+Run the following two commands from the jenkins directory:
 ```
 docker-compose build
 docker-compose up -d
